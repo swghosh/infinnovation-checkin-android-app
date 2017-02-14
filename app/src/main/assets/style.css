@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400);
+body {
+    margin: 0%;
+    background-color: #111;
+}
+.wrapper {
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.header {
+    width: 100%;
+    background-color: rgba(10%, 10%, 10%, 0.8);
+    min-height: 100%;
+    text-align: center;
+}
+.header > h1 {
+    font-family: 'Raleway';
+    color: #fff;
+    margin: 5%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+}
+.header > h1 > small {
+    font-size: 50%;
+}
+.header > h1 > sup > #beta {
+    font-size: 60%;
+    background-color: #fff;
+    color: #156;
+    width: 100%;
+    border-radius: 10%;
+}
+.header > h1 > span{
+    font-size: 60%;
+}
+.header > #imageatr {
+    text-align: center;
+}
+.header > #imageatr > img {
+    width: 20%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    background-color: rgba(10%, 10%, 10%, 0.8);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0%, 0%, 0%, 0.9);
+}
+.navbar {
+    width: 100%;
+    box-shadow: 0 0 40px rgba(0,0,0,0.9);
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+    font-family: 'Raleway';
+}
+.navbar li {
+    float: left;
+}
+.navbar li:hover {
+    background-color: #058;
+}
+.navbar li > a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 120%;
+}
+.flogolink {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-transform: lowercase;
+    font-family: 'Amatic SC';
+}
+#togglemenu {
+    display: none;
+}
+#togglemenu > #menubutton {
+    text-align: left;
+    float: left;
+}
+#togglemenu:hover {
+    background-color: #222;
+}
+#menubutton {
+    font-size: 200%;
+    margin: 0%;
+}
+#menubutton > small {
+    font-size: 100%;
+}
+
+#flogo {
+    display: none;
+    background-color: #222;
+}
+.content1 {
+    overflow-x: auto;
+    min-width: 100%;
+    background-color: rgb(16, 41, 70);
+    color: #fff;
+    background-attachment: fixed;
+    height: 120%;
+}
+.foot {
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    font-family: 'Raleway';
+    height: 120%;
+}
+.foot > h1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+}
+.foot > p {
+    text-align: left;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.foot a {
+    color: inherit;
+}
+.foot a:hover {
+    color: #ccc;
+}
+.heart {
+    color: #f30;
+    font-family: serif;
+    font-size: 120%;
+}
+.content1 form {
+    margin: 6%;
+    font-size: 120%;
+    font-family: 'Raleway';
+}
+.content1 p {
+    margin: 6%;
+    font-size: 120%;
+    font-family: 'Raleway';
+}
+.content1 p#error {
+    text-align: left;
+    font-family: monospace;
+}
+.content1 span {
+    font-size: 80%;
+    color: red;
+}
+.content1 span small {
+    color: #fff;
+}
+.button {
+    font-size: 70%;
+    font-family: inherit;
+    border-radius: 5px;
+    background-color: rgba(30%, 30%, 30%, 0.2);
+    font-size: 120%;
+    color: #fff;
+    border-color: #000;
+	transition: all 0.5s;
+	transition-timing-function: ease-in-out;
+}
+.button:hover {
+	box-shadow: 0 0 20px #000;
+	background-color: #ddd;
+	color: #333;
+}
+input[type=text] {
+    color: #eee;
+    border: transparent;
+    border-bottom: 2px solid #fff;
+    background-color: rgba(100%, 100%, 100%, 0.05);
+    font-family: 'Raleway';
+    font-size: 110%;
+    border-radius: 5%;
+    text-align: center;
+}
+input[type=password] {
+    color: #eee;
+    border: transparent;
+    border-bottom: 2px solid #fff;
+    background-color: rgba(100%, 100%, 100%, 0.05);
+    font-family: 'Raleway';
+    font-size: 110%;
+    border-radius: 5%;
+    text-align: center;
+}
+input[type=number] {
+    color: #eee;
+    border: transparent;
+    border-bottom: 2px solid #fff;
+    background-color: rgba(100%, 100%, 100%, 0.05);
+    font-family: 'Raleway';
+    font-size: 110%;
+    border-radius: 5%;
+    text-align: center;
+}
+input:focus {
+    color: #fff;
+}
+.content1 h1 {
+    text-align: center;
+    font-family: 'Amatic SC';
+    font-size: 300%;
+    text-decoration: underline;
+}
+.content1 ul {
+    margin-left: 0%;
+    margin-right: 5%;
+}
+.content1 li {
+    font-family: 'Raleway';
+    margin: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    font-size: 120%;
+    margin-bottom: 2%;
+}
+.content1 table {
+    display: inline-table;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 90%;
+    font-family: 'Raleway';
+    box-shadow: 0px 0px 20px #232323;
+}
+.content1 tr:nth-child(odd) {
+    background-color: #222;
+}
+.content1 tr:nth-child(even) {
+    background-color: #f1f1f1;
+    color: #000;
+}
+.content1 th {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.content1 td {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.content1 td a {
+    color: inherit;
+}
+.content1 td a:hover {
+    text-decoration: none;
+}
+table#news {
+    box-shadow: none;
+    max-width: 700px;
+}
+table#news th {
+	display: none;
+}
+table#news tr {
+    box-shadow: 0px 0px 20px #000;
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+table#news td:nth-child(odd) {
+	display: flex;
+	text-align: left;
+	font-size: 70%;
+}
+table#news td:nth-child(even) {
+	text-align: left;
+	display: flex;
+	font-size: 100%;
+	padding: 4%;
+}
+.content1 > article#news {
+    display: block;
+    text-align: center;
+}
